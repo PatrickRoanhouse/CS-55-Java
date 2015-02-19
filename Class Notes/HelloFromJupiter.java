@@ -6,7 +6,12 @@ import java.util.*;
 
 /*
 
+CS 55 - Java Programming
+
+
 */
+
+
 // case sensitive & all capitals as first letter mean it is an object
 
 public class HelloFromJupiter
