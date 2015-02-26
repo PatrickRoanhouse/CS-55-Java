@@ -21,8 +21,8 @@ public class DemoIO
 	{
 		Scanner input= new Scanner(System.in);
 		
-		System.out.println("What is your name?");
-		String name=input.nextLine();
+		System.out.print("What is your name? ");
+		String name=input.next();
 		
 		System.out.println(name + " hope you are well!");
 		System.out.printf("%s Wish you Well \n", name);
