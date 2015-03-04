@@ -27,9 +27,8 @@ public class DemoObject
 		
 		if( r1.getHeight() > r2.getHeight());
 		{
-			System.out.println("r1 > r2");
-				
-				System.out.println(r1 +"=======\n"+r2.toString());
+			System.out.println("r1 > r2");	
+			System.out.println(r1 +"=======\n"+r2.toString());
 		}
 		System.exit(0);
 	}
@@ -37,35 +36,35 @@ public class DemoObject
 
 class MyRect
 {
-	private int width;
-	private int height;
+	private double width;
+	private double height;
 	
 	public MyRect()
 	{
 		
 	}
-	public MyRect(int w, int h)
+	public MyRect(double w, double h)
 	{
 		width = w;
 		height = h;
 	}
-	public void setWidth(int width)
+	public void setWidth(double width)
 	{
 		this.width = width;
 	}	
-	public int getWidth()
+	public double getWidth()
 	{ 
 		return width;
 	}
-	public void setHeight(int height)
+	public void setHeight(double height)
 	{
 		this.height = height;
 	}	
-	public int getHeight()
+	public double getHeight()
 	{ 
 		return width;
 	}
-	public int getArea()
+	public double getArea()
 	{
 		return width * height;
 	}
