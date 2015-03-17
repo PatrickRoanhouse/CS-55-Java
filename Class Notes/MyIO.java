@@ -19,9 +19,26 @@ public class MyIO
 {
 	public static int getInt(String s)
 	{
-		String strNum = JOptionPane.showInputDialog(s);
-
-		int n1 = Integer.parseInt(strNum);
+		String strNum = "";
+		int n=0;
+		boolean ok = false;
+		
+		while(! ok)
+		{
+			try
+			{
+			String strNum = JOptionPane.showInputDialog(s);
+			int n1 = Integer.parseInt(strNum);
+			ok = true;
+			}
+			catch (Exception ex)
+			{
+				JOptionPane.ShowMessageDialog(null,strNum+"is not an interger try again");
+			}
+		}
+		
+		
+		
 		return n1;
 
 	}
