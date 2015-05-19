@@ -7,7 +7,7 @@ public class DicePractice
 {
  public static void main(String [] args)
   {
-   int n1=0,n2=0,n3=0,n4=0,n5=0,n6=0;
+    int n1=0,n2=0,n3=0,n4=0,n5=0,n6=0;
 	
    for(int i=0; i < 1000 ; i++)
    {
@@ -25,7 +25,7 @@ public class DicePractice
   }
 	String out="Dice has thrown 1000 times\n";
 	out+="Ocurrences of 1's are: "+n1+"\n"
-		+"Ocurrences of 2's are: "+n2+"\n"
+	    +"Ocurrences of 2's are: "+n2+"\n"
         +"Ocurrences of 3's are: "+n3+"\n"
 		+"Ocurrences of 4's are: "+n4+"\n"
 		+"Ocurrences of 5's are: "+n5+"\n"
